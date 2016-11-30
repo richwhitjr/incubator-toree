@@ -225,7 +225,7 @@ object Common {
 
     // Options provided to forked JVMs through sbt, based on our .jvmopts file
     javaOptions ++= Seq(
-      "-Xms1024M", "-Xmx4096M", "-Xss2m", "-XX:MaxPermSize=1024M",
+      "-Xms1024M", "-Xmx10096M", "-Xss2m", "-XX:MaxPermSize=1024M",
       "-XX:ReservedCodeCacheSize=256M", "-XX:+TieredCompilation",
       "-XX:+CMSPermGenSweepingEnabled", "-XX:+CMSClassUnloadingEnabled",
       "-XX:+UseConcMarkSweepGC", "-XX:+HeapDumpOnOutOfMemoryError"
